@@ -12,7 +12,13 @@ export default defineConfig({
         science: resolve(__dirname, 'science/index.html'),
         profile: resolve(__dirname, 'profile/index.html'),
         products: resolve(__dirname, 'products/index.html'),
-        hongsanyusu: resolve(__dirname, 'products/hongsanyusu.html')
+        goryeoRedGinsengExtract: resolve(__dirname, 'products/goryeo-red-ginseng-extract.html'),
+        redGinsengSlices: resolve(__dirname, 'products/red-ginseng-slices.html'),
+        redGinsengLiquid: resolve(__dirname, 'products/red-ginseng-liquid.html'),
+        redGinsengCandy: resolve(__dirname, 'products/red-ginseng-candy.html'),
+        redGinsengCrackers: resolve(__dirname, 'products/red-ginseng-crackers.html'),
+        redGinsengJelly: resolve(__dirname, 'products/red-ginseng-jelly.html'),
+        premiumRedGinsengCheongGold: resolve(__dirname, 'products/premium-red-ginseng-cheong-gold.html')
       }
     }
   }
