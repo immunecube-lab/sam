@@ -1150,6 +1150,18 @@ img {
   object-fit: contain;
 }
 
+.product-photo-slot img.product-photo--portrait-crop {
+  aspect-ratio: 1213 / 1296;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-photo-slot img.product-photo--landscape-match {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+}
+
 .product-photo-placeholder {
   display: flex;
   flex-direction: column;
